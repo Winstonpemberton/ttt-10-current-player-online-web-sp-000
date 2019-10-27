@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 0
-  board.each_index do |position|
-    if position == "O"
+  board.each_index do |index|
+    if index == "O"
       counter += 1
     end
     return counter
