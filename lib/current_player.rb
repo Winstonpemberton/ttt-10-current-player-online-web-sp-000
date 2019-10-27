@@ -4,8 +4,8 @@ def turn_count(board)
     if index != nil || " " || ""
       counter += 1
     end
-  return counter
-  end
 
+  end
+  return counter
 
 end
