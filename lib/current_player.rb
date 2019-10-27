@@ -3,8 +3,8 @@ def turn_count(board)
   board.each_index do |index|
     if index == "O" || "X"
       counter += 1
+      return counter
     end
-    return counter
   end
 
 end
