@@ -4,6 +4,7 @@ def turn_count(board)
     if index == "X" || "O"
       counter = counter + 1
     end
+    return counter
   end
-return counter
+
 end
